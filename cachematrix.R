@@ -1,11 +1,11 @@
 ## cachematrix has two funtions.
 ##
-## The first makeCacheMatrix creates a listing that hyas functions to:
+## The first makeCacheMatrix creates a listing that has functions to:
 ##  1. set the value of the matrix,
 ##  2. get the value of the matrix,
 ##  3. set the value of the inverse,
 ##  4. get the value of the inverse.
-## It uses the function solve
+## It uses the function solve.
 ## 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -24,8 +24,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve returns the value of the inverse matrix, theh matrix
-## which was the argument of makeCacheMatrx.
+## cacheSolve returns the value of the inverse matrix, the matrix
+## which was the argument of makeCacheMatrix.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
