@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve returns the value of the inverse matrix, teh matrix
+## cacheSolve returns the value of the inverse matrix, theh matrix
 ## which was the argument of makeCacheMatrx.
 
 cacheSolve <- function(x, ...) {
