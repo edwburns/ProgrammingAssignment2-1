@@ -5,7 +5,7 @@
 ##  2. get the value of the matrix,
 ##  3. set the value of the inverse,
 ##  4. get the value of the inverse.
-## It uses teh function solve
+## It uses the function solve
 ## 
 
 makeCacheMatrix <- function(x = matrix()) {
