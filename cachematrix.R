@@ -48,6 +48,15 @@ test_identity<-function(mtx1,mtx2){
 
 cacheSolve <- function(fnc, ...) {
 ## Return a matrix that is the inverse of 'x'
+   tryCatch(fnc$get(),
+            error = function(e){message("an error fnc$get()\n",e)
+               fnc$set(fnc$getnex())
+               },
+            warning = function(w){message("a warning fnc$get()\n",w)},
+            finally = {}
+              
+   )
+              
    if(test_identity(fnc$getnex(),fnc$get()))
    {
       im <- fnc$getinverse()
