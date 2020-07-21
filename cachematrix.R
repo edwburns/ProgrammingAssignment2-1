@@ -7,7 +7,6 @@
 ##  4. get the value of the inverse.
 ## It uses the function solve.
 ## 
-##
 makeCacheMatrix <- function(xx=matrix()){
 # m <- NULL
   ne<-new.env()
